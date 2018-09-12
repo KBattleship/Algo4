@@ -22,9 +22,9 @@ public class BinarySearch {
     /**
      * 调用递归算法
      *
-     * @param key          目标参数
-     * @param headIndex    第一个参数索引
-     * @param params       源参数即一组数
+     * @param key       目标参数
+     * @param headIndex 第一个参数索引
+     * @param params    源参数即一组数
      * @return
      */
     public static int rank(int key, int headIndex, int[] params) {
@@ -34,10 +34,10 @@ public class BinarySearch {
     /**
      * 递归算法实现
      *
-     * @param key          目标参数
-     * @param params       源参数即一组数
-     * @param headIndex    第一个参数索引
-     * @param endIndex     末尾参数索引
+     * @param key       目标参数
+     * @param params    源参数即一组数
+     * @param headIndex 第一个参数索引
+     * @param endIndex  末尾参数索引
      * @return
      */
     private static int rank(int key, int[] params, int headIndex, int endIndex) {
@@ -53,6 +53,33 @@ public class BinarySearch {
 
             return mid;
         }
+    }
+
+    /*
+        使用最基础的代码实现二分法查找算法
+     */
+
+    /**
+     *
+     * @param key       目标参数,即要找到的对象
+     * @param params    一组给定的参数
+     * @return          返回结果，或者并没有在给定的数中找到
+     */
+    public static int rank(int key, int[] params) {
+        int headIndex = 0;
+        int endIndex = params.length - 1;
+        while (headIndex <= endIndex) {
+            int mid = headIndex + (endIndex - headIndex) / 2;
+            if (key < params[mid]) {
+                endIndex = mid - 1;
+            } else if (key > params[mid]) {
+                headIndex = mid + 1;
+            } else {
+                return mid;
+            }
+
+        }
+        return -1;
     }
 
 }
