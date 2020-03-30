@@ -10,6 +10,9 @@ package fundamentals.programmingModel;
  ***/
 public class BinarySearch {
 
+
+    //特别需要注意此类中的一点：int[] params必须是有序的
+
     /*
         通过递归算法实现二分查找
 
