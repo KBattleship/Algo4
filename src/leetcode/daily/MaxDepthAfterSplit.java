@@ -1,12 +1,12 @@
 package leetcode.daily;
 
 /**
- * @ClassName: MaxDepthAfterSplit_1111
+ * @ClassName: MaxDepthAfterSplit
  * @Description: 1111. 有效括号的嵌套深度
  * @Author: CheneyIn
  * @Date: 2020-04-01
  */
-public class MaxDepthAfterSplit_1111 {
+public class MaxDepthAfterSplit {
     /*
     有效括号字符串 定义：对于每个左括号，都能找到与之对应的右括号，反之亦然。详情参见题末「有效括号字符串」部分。
 

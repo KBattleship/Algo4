@@ -4,12 +4,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @ClassName: IsUnique01_01
+ * @ClassName: IsUnique
  * @Description: 面试题 01.01. 判定字符是否唯一
  * @Author: CheneyIn
  * @Date: 2020-03-21
  */
-public class IsUnique01_01 {
+public class IsUnique {
 
     /*
         实现一个算法，确定一个字符串 s 的所有字符是否全都不同。

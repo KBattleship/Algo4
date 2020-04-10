@@ -1,12 +1,12 @@
 package leetcode.daily;
 
 /**
- * @ClassName: MinDistance_72
+ * @ClassName: MinDistance
  * @Description: 72.编辑距离
  * @Author: CheneyIn
  * @Date: 2020-04-06
  */
-public class MinDistance_72 {
+public class MinDistance {
 
     /*
         给你两个单词 word1 和 word2，请你计算出将 word1 转换成 word2 所使用的最少操作数 。

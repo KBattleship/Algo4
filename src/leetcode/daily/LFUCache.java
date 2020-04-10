@@ -5,12 +5,12 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 
 /**
- * @ClassName: LFUCache_460
+ * @ClassName: LFUCache
  * @Description: LFU缓存
  * @Author: CheneyIn
  * @Date: 2020-04-05
  */
-public class LFUCache_460 {
+public class LFUCache {
 
     /*
         设计并实现最不经常使用（LFU）缓存的数据结构。它应该支持以下操作：get 和 put。
@@ -36,7 +36,7 @@ public class LFUCache_460 {
     int min; // 存储当前最小频次
 
 
-    public LFUCache_460(int capacity) {
+    public LFUCache(int capacity) {
         cacheMap = new HashMap<>(capacity);
         freqMap = new HashMap<>();
         this.capacity = capacity;
@@ -110,7 +110,7 @@ public class LFUCache_460 {
 
 
     public static void main(String[] args) {
-        LFUCache_460 cache = new LFUCache_460(2);
+        LFUCache cache = new LFUCache(2);
         cache.put(2,0);
         cache.put(1,1);
         cache.put(2,2);

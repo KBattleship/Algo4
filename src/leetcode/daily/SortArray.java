@@ -1,12 +1,12 @@
 package leetcode.daily;
 
 /**
- * @ClassName: SortArray_912
+ * @ClassName: SortArray
  * @Description: 排序数组
  * @Author: CheneyIn
  * @Date: 2020-03-31
  */
-public class SortArray_912 {
+public class SortArray {
     /*
         给你一个整数数组 nums，将该数组升序排列。
 

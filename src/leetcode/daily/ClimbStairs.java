@@ -1,7 +1,7 @@
 package leetcode.daily;
 
 /**
- * @ClassName: ClimbStairs_70
+ * @ClassName: ClimbStairs
  * @Description: 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
  * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
  * 注意：给定 n 是一个正整数。
@@ -22,7 +22,7 @@ package leetcode.daily;
  * @Author: CheneyIn
  * @Date: 2020-03-31
  */
-public class ClimbStairs_70 {
+public class ClimbStairs {
     /*
         1.暴力解法
         LeetCode 会报超时

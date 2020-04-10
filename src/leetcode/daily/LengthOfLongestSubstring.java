@@ -3,12 +3,12 @@ package leetcode.daily;
 import java.util.HashSet;
 
 /**
- * @ClassName: LengthOfLongestSubstring_03
+ * @ClassName: LengthOfLongestSubstring
  * @Description: 03.无重复字符的最长子串
  * @Author: CheneyIn
  * @Date: 2020-04-06
  */
-public class LengthOfLongestSubstring_03 {
+public class LengthOfLongestSubstring {
     public static int lengthOfLongestSubstring_2(String s) {
         if (s == null || s.equals("")) return 0;
         if (1 == s.length()) return 1;
